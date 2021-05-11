@@ -5,3 +5,12 @@
     text-align: center;
     line-height: 200px;
 }
+
+.box-nested {
+    border: 1px solid white;
+    background-color: #f07f80;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    margin: 3px;
+}
