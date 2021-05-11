@@ -1,0 +1,21 @@
+.box {
+    border: 1px solid black;
+    height: calc(100vw / 12);
+    text-align: center;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.lightgray {
+    background-color: lightgray;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.black {
+    background-color: black;
+}
