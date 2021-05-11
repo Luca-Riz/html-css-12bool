@@ -8,7 +8,6 @@ section {
 }
 
 .box {
-    border: 1px solid black;
     height: calc(100vw / 16);
     background-color: white;
 }
@@ -36,7 +35,6 @@ section {
     }
     
     .box {
-        border: 1px solid black;
         height: calc(80vw / 16);
     }
 }
@@ -48,7 +46,6 @@ section {
     }
     
     .box {
-        border: 1px solid black;
         height: calc(40vw / 16);
     }
 }
