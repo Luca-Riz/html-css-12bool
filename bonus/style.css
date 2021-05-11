@@ -1,7 +1,16 @@
+body {
+    background-color: black;
+}
+
+section {
+    width: 100vw;
+    margin: 0 auto;
+}
+
 .box {
     border: 1px solid black;
-    height: calc(100vw / 12);
-    text-align: center;
+    height: calc(100vw / 16);
+    background-color: white;
 }
 
 .gray {
@@ -18,4 +27,28 @@
 
 .black {
     background-color: black;
+}
+
+@media screen and (min-width: 720px){
+    section {
+        width: 80vw;
+        margin: 0 auto;
+    }
+    
+    .box {
+        border: 1px solid black;
+        height: calc(80vw / 16);
+    }
+}
+
+@media screen and (min-width: 960px){
+    section {
+        width: 40vw;
+        margin: 0 auto;
+    }
+    
+    .box {
+        border: 1px solid black;
+        height: calc(40vw / 16);
+    }
 }
