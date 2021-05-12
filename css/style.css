@@ -1,8 +1,6 @@
 .flex {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    vertical-align: middle;
     }
 
 .box {
@@ -10,6 +8,7 @@
     background-color: #ffc0cb;
     min-height: 200px;
     text-align: center;
+    line-height: 200px;
 }
 
 .box-nested {
@@ -20,4 +19,8 @@
     text-align: center;
     margin: 3px;
     
+}
+
+.box-nested .nst-center {
+    line-height: 16px;
 }
